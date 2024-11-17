@@ -11,7 +11,7 @@
     <title>Fabulous Ticket</title>
   </head>
   <body>
-    <main class="container" style="max-width:700px;">
+    <main class="container" style="max-width:750px;">
         <nav>
             <ul>
               <li><strong>Fabulous Ticket</strong></li>
@@ -19,6 +19,7 @@
             <ul>
               <li><a href="{{ route('table') }}">Ordenes Activas</a></li>
               <li><a href="{{ route('completed') }}">Ordenes Completadas</a></li>
+              <li><a href="{{ route('admin.image') }}">Imagenes</a></li>
             </ul>
         </nav>
         <br/>

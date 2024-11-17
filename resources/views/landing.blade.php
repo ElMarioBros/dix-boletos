@@ -12,15 +12,60 @@
   </head>
   <body>
       <main class="container" style="max-width:700px;">
-        <img src="https://i.ibb.co/HTKwV1S/nido.jpg">
-        <img src="{{ asset('storage/' . $images->image_one) }}">
-        <img src="{{ asset('storage/' . $images->image_two) }}">
-        <img src="https://i.ibb.co/hMdvbgh/basico.jpg">
-        <img src="https://i.ibb.co/brxD9Bg/mxl-pass.jpg">
-        <img src="https://i.ibb.co/rfZ7y71/foraneo.jpg">
         <a href="{{ route('form') }}">
-          <img src="https://i.ibb.co/SR7LHHp/ven.jpg">
+          <img src="{{ asset('images/1.jpg') }}">
         </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('images/2.jpeg') }}">
+        </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('images/3.jpeg') }}">
+        </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('images/4.jpeg') }}">
+        </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('images/5.jpeg') }}">
+        </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('storage/' . $images->image_one) }}">
+        </a>
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('storage/' . $images->image_two) }}">
+        </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('images/8.jpeg') }}">
+        </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('images/9.jpeg') }}">
+        </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('images/10.jpeg') }}">
+        </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('images/11.jpeg') }}">
+        </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('images/12.jpeg') }}">
+        </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('images/13.jpeg') }}">
+        </a>
+
+        <a href="{{ route('form') }}">
+          <img src="{{ asset('images/14.jpeg') }}">
+            </a>
       </main>
   </body>
 </html>
